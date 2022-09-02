@@ -1,6 +1,7 @@
 # -*- mode: org; -*-
 
 #+options: timestamp:nil
+#+options: author:nil
 
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="https://gongzhitaao.org/orgcss/org.css"/>
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="https://nightmachinery.github.io/orgmode-styles/notes_1.css" />
