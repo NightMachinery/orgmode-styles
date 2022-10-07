@@ -4,6 +4,7 @@
 #+options: author:nil
 
 #+options: H:2
+# sets [help:org-export-headline-levels]
 
 #+PROPERTY: header-args :eval never-export
 
