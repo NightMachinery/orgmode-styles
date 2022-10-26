@@ -6,6 +6,9 @@
 #+options: H:2
 # sets [help:org-export-headline-levels]
 
+#+OPTIONS: ^:nil
+# [help:org-export-with-sub-superscripts]
+
 #+PROPERTY: header-args :eval never-export
 
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="https://gongzhitaao.org/orgcss/org.css"/>
