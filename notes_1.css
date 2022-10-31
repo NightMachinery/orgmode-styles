@@ -10,6 +10,8 @@ img {
     /* color: mintcream; */
     color: floralwhite;
     /* color: whitesmoke; */
+
+    font-weight: bold;
 }
 
 .todo.at_tag {
@@ -23,8 +25,6 @@ img {
     /* color: #e9f1f2; */
     /* color: white; */
     /* color: black; */
-
-    font-weight: bold;
 }
 
 .todo.QUESTION {
