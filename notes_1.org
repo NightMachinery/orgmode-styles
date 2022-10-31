@@ -8,6 +8,8 @@
 
 #+OPTIONS: ^:nil
 # [help:org-export-with-sub-superscripts]
+# [[https://emacs.stackexchange.com/questions/10549/org-mode-how-to-export-underscore-as-underscore-instead-of-highlight-in-html][org-mode: How to export underscore as underscore instead of highlight in HTML? - Emacs Stack Exchange]]
+
 
 #+PROPERTY: header-args :eval never-export
 

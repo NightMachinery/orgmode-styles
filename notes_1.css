@@ -1,3 +1,19 @@
 img {
     border:5px solid #000000;
 }
+/* ###  */
+/* [[DOOMDIR:autoload/org/night-todo-states.el::(setq org-todo-keyword-faces][org/night-todo-states.el:org-todo-keyword-faces]] */
+.todo.at_tag {
+    /* [[file:~/code/hugo/notes-hugo/themes/cortex/assets/css/main.css::.at_tag {][css/main.css::.at_tag]] */
+/* background-color: lightseagreen; */
+/* background-color: #0001ff; */
+/* color: aliceblue; */
+background-color: springgreen;
+/* color: #e9f1f2; */
+color: white;
+}
+
+.todo.QUESTION {
+    background-color: cornflowerblue;
+}
+/* ###  */
