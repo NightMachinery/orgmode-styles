@@ -12,6 +12,7 @@ img {
     /* color: whitesmoke; */
 
     font-weight: bold;
+    margin-right: 0.1em;
 }
 
 .todo.at_tag {
