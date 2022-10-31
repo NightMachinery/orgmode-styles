@@ -3,14 +3,28 @@ img {
 }
 /* ###  */
 /* [[DOOMDIR:autoload/org/night-todo-states.el::(setq org-todo-keyword-faces][org/night-todo-states.el:org-todo-keyword-faces]] */
+.done, .todo {
+    font-size: 100%;
+    line-height: 1.6;
+    border-radius: 6px;
+    /* color: mintcream; */
+    color: floralwhite;
+    /* color: whitesmoke; */
+}
+
 .todo.at_tag {
     /* [[file:~/code/hugo/notes-hugo/themes/cortex/assets/css/main.css::.at_tag {][css/main.css::.at_tag]] */
-/* background-color: lightseagreen; */
-/* background-color: #0001ff; */
-/* color: aliceblue; */
-background-color: springgreen;
-/* color: #e9f1f2; */
-color: white;
+    /* background-color: lightseagreen; */
+    background-color: darkgoldenrod;
+    /* background-color: #0001ff; */
+    /* color: aliceblue; */
+    /* background-color: springgreen; */
+    /* background-color: palegreen; */
+    /* color: #e9f1f2; */
+    /* color: white; */
+    /* color: black; */
+
+    font-weight: bold;
 }
 
 .todo.QUESTION {
