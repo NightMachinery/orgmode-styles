@@ -1,3 +1,13 @@
+/** @RTL */
+/* [[https://developer.mozilla.org/en-US/docs/Web/CSS/unicode-bidi][unicode-bidi - CSS: Cascading Style Sheets | MDN]] */
+p, div, h1, h2, h3, h4, td, th, table, .org-left {
+    /*For RTL languages */
+    unicode-bidi: plaintext;
+    /* for firefox >50 */
+    unicode-bidi: -moz-plaintext;
+}
+/** */
+
 img {
     border:5px solid #000000;
 }
