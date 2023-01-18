@@ -9,6 +9,7 @@ p, div, h1, h2, h3, h4, td, th, table, .org-left {
 /** */
 
 img {
+    display: block; /* makes text go in a new line after the image */
     border:5px solid #000000;
 }
 /* ###  */
