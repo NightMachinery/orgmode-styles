@@ -56,4 +56,8 @@ img {
 .todo.QUESTION {
     background-color: cornflowerblue;
 }
+
+.at_tag[class*="at_toread"] {
+    background-color: darkblue;
+}
 /* ###  */
