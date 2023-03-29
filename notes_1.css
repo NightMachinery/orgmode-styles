@@ -1,63 +1,98 @@
 /** @RTL */
 /* [[https://developer.mozilla.org/en-US/docs/Web/CSS/unicode-bidi][unicode-bidi - CSS: Cascading Style Sheets | MDN]] */
-p, div, h1, h2, h3, h4, td, th, table, .org-left {
-    /*For RTL languages */
-    unicode-bidi: plaintext;
-    /* for firefox >50 */
-    unicode-bidi: -moz-plaintext;
+p,
+div,
+h1,
+h2,
+h3,
+h4,
+td,
+th,
+table,
+.org-left {
+  /*For RTL languages */
+  unicode-bidi: plaintext;
+  /* for firefox >50 */
+  unicode-bidi: -moz-plaintext;
 }
 /** */
 
 pre {
-    /* enables text wrapping */
-    white-space: pre-wrap;       /* Since CSS 2.1 */
-    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
-    white-space: -pre-wrap;      /* Opera 4-6 */
-    white-space: -o-pre-wrap;    /* Opera 7 */
-    word-wrap: break-word;       /* Internet Explorer 5.5+ */
-    /* */
+  /* enables text wrapping */
+  white-space: pre-wrap; /* Since CSS 2.1 */
+  white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+  white-space: -pre-wrap; /* Opera 4-6 */
+  white-space: -o-pre-wrap; /* Opera 7 */
+  word-wrap: break-word; /* Internet Explorer 5.5+ */
+  /* */
 }
 
 img {
-    display: block; /* makes text go in a new line after the image */
-    border:5px solid #000000;
+  display: block; /* makes text go in a new line after the image */
+  border: 5px solid #000000;
 }
 /* ###  */
 /* [[DOOMDIR:autoload/org/night-todo-states.el::(setq org-todo-keyword-faces][org/night-todo-states.el:org-todo-keyword-faces]] */
-.done, .todo {
-    font-size: 100%;
-    line-height: 1.6;
-    border-radius: 6px;
-    /* color: mintcream; */
-    color: floralwhite;
-    /* color: whitesmoke; */
+.done,
+.todo {
+  font-size: 100%;
+  line-height: 1.6;
+  border-radius: 6px;
+  /* color: mintcream; */
+  color: floralwhite;
+  /* color: whitesmoke; */
 
-    font-weight: bold;
-    margin-right: 0.1em;
+  font-weight: bold;
+  margin-right: 0.1em;
 }
 
 ._idea {
-   background-color: forestgreen;
+  background-color: forestgreen;
 }
 
 .todo.at_tag {
-    /* [[file:~/code/hugo/notes-hugo/themes/cortex/assets/css/main.css::.at_tag {][css/main.css::.at_tag]] */
-    /* background-color: lightseagreen; */
-    background-color: darkgoldenrod;
-    /* background-color: #0001ff; */
-    /* color: aliceblue; */
-    /* background-color: springgreen; */
-    /* background-color: palegreen; */
-    /* color: #e9f1f2; */
-    /* color: white; */
-    /* color: black; */
+  /* [[file:~/code/hugo/notes-hugo/themes/cortex/assets/css/main.css::.at_tag {][css/main.css::.at_tag]] */
+  /* background-color: lightseagreen; */
+  background-color: darkgoldenrod;
+  /* background-color: #0001ff; */
+  /* color: aliceblue; */
+  /* background-color: springgreen; */
+  /* background-color: palegreen; */
+  /* color: #e9f1f2; */
+  /* color: white; */
+  /* color: black; */
 }
 
 .todo.QUESTION {
-    background-color: cornflowerblue;
+  background-color: cornflowerblue;
 }
 
-.at_tag[class*="at_toread"] {
-    background-color: darkblue;
+.at_tag[at_tag^="toread"] {
+  background-color: darkblue;
+}
+
+.at_tag[at_tag^="citations/"],
+.at_tag[at_tag^="190"],
+.at_tag[at_tag^="191"],
+.at_tag[at_tag^="192"],
+.at_tag[at_tag^="193"],
+.at_tag[at_tag^="194"],
+.at_tag[at_tag^="195"],
+.at_tag[at_tag^="196"],
+.at_tag[at_tag^="197"],
+.at_tag[at_tag^="198"],
+.at_tag[at_tag^="199"],
+.at_tag[at_tag^="200"],
+.at_tag[at_tag^="201"],
+.at_tag[at_tag^="202"],
+.at_tag[at_tag^="203"],
+.at_tag[at_tag^="204"],
+.at_tag[at_tag^="205"],
+.at_tag[at_tag^="206"],
+.at_tag[at_tag^="207"],
+.at_tag[at_tag^="208"],
+.at_tag[at_tag^="209"] {
+  background-color: azure;
+  color: teal;
 }
 /* ###  */
