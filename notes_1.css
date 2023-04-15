@@ -46,6 +46,8 @@ img {
   margin-right: 0.1em;
 }
 
+
+.at_tag[at_tag^="idea/"],
 ._idea {
   background-color: forestgreen;
 }
