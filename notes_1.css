@@ -97,4 +97,14 @@ img {
 ._idea {
   background-color: forestgreen;
 }
+
+.at_tag[at_tag^="retired"],
+.at_tag[at_tag$="/retired"],
+.at_tag[at_tag$=",retired"],
+.at_tag[at_tag^="rejected"],
+.at_tag[at_tag$="/rejected"],
+.at_tag[at_tag$=",rejected"]
+{
+  background-color: dimgray;
+}
 /* ###  */
