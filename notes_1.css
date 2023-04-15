@@ -47,11 +47,6 @@ img {
 }
 
 
-.at_tag[at_tag^="idea/"],
-._idea {
-  background-color: forestgreen;
-}
-
 .todo.at_tag {
   /* [[file:~/code/hugo/notes-hugo/themes/cortex/assets/css/main.css::.at_tag {][css/main.css::.at_tag]] */
   /* background-color: lightseagreen; */
@@ -96,5 +91,10 @@ img {
 .at_tag[at_tag^="209"] {
   background-color: azure;
   color: teal;
+}
+
+.at_tag[at_tag^="idea/"],
+._idea {
+  background-color: forestgreen;
 }
 /* ###  */
