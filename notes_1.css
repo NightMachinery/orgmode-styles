@@ -18,6 +18,16 @@ table,
   /* for firefox >50 */
   unicode-bidi: -moz-plaintext;
 }
+
+.night_rtl {
+  /*For RTL languages */
+  unicode-bidi: plaintext;
+  /* for firefox >50 */
+  unicode-bidi: -moz-plaintext;
+
+  direction: rtl;
+  text-align: right;
+}
 /** */
 
 pre {
