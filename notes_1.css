@@ -1,11 +1,14 @@
 /** @RTL */
 /* [[https://developer.mozilla.org/en-US/docs/Web/CSS/unicode-bidi][unicode-bidi - CSS: Cascading Style Sheets | MDN]] */
 p,
+a,
 div,
 h1,
 h2,
 h3,
 h4,
+ol,
+li,
 td,
 th,
 table,
